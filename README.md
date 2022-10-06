@@ -3,21 +3,66 @@
 This is a small repo to help you run JS code more effiently in your local environment
 
 ## Prerequisits
+You should have Git and NodeJs installed on your local machine. Use the following links to navigate to the download pages and follow the installation instructions for you operating system.
 * [Git](https://git-scm.com/downloads)
-* (NodeJs)[https://nodejs.org/en/download/]
+* [NodeJs](https://nodejs.org/en/download/)
 
-
-You should have Git and NodeJs installed on your local machine
--Install pre-requisits: navigate to the Git/NodeJS download sites and follow the instructions for you OS
---Git - https://git-scm.com/downloads
---NodeJS - https://nodejs.org/en/download/
-
-## Test installations
-Git - run command: 
+## Verify installations
+Use the following **git** commmand to make sure the software is installed and view the **git** version. 
 
 ```bash
 git --version
 ```
+
+Installing **NodeJs** also installs a tool called **npm**. Use the following commmand to make sure **npm** is preset on your machine and view the **npm** version. 
+
+```bash
+npm --version
+```
+
+Use the following commmand to make sure **node** is preset on your machine and view the **node** version. 
+
+```bash
+node --version
+```
+## Project 
+
+```bash
+├── index.js
+├── package.json
+├── package-lock.json
+├── README.md
+└── week1
+    ├── operators-end.js
+    └── operators-start.js
+```
+
+
+
+## Dependencies
+
+`package.json` is a special file that allows you to define the library **dependencies** to install. Execute the following comand in the top level directory also known as this project's root directory. This is inside the `local-js-setup` directory/project.
+
+```bash
+npm install
+```
+
+Alternativally you can install **nodemon** globally on you operating system with the following command.
+```bash
+npm install -g nodemon
+```
+
+
+### Nodemon
+
+[Nodemon](https://www.npmjs.com/package/nodemon) is a tool that  helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+
+
+
+
+
+
 
 
 --NodeJs - run command: node --version

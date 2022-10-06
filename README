@@ -6,7 +6,7 @@ Prerequisits: You should have Git and NodeJs installed on your local machine
 --NodeJS - https://nodejs.org/en/download/
 
 -Test installations
---Git - run command: git --version
+--Git - run command: `git --version`
 --NodeJs - run command: node --version
 --both Git and NodeJS at the same time - run command: git --version && node --version (NOTE: the commands will be run in the order you call them)
 

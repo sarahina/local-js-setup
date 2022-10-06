@@ -3,7 +3,7 @@
 This is a small repo to help you run JS code more effiently in your local environment
 
 ## Prerequisits
-* (Git)[https://git-scm.com/downloads]
+* [Git](https://git-scm.com/downloads)
 * (NodeJs)[https://nodejs.org/en/download/]
 
 

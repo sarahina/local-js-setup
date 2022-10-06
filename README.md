@@ -25,7 +25,7 @@ Use the following commmand to make sure **node** is preset on your machine and v
 ```bash
 node --version
 ```
-## Project 
+## Project
 
 ```bash
 ├── index.js

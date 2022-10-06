@@ -1,6 +1,13 @@
+# Local JS Setup
+
 This is a small repo to help you run JS code more effiently in your local environment
 
-Prerequisits: You should have Git and NodeJs installed on your local machine
+## Prerequisits
+* (Git)[https://git-scm.com/downloads]
+* (NodeJs)[https://nodejs.org/en/download/]
+
+
+You should have Git and NodeJs installed on your local machine
 -Install pre-requisits: navigate to the Git/NodeJS download sites and follow the instructions for you OS
 --Git - https://git-scm.com/downloads
 --NodeJS - https://nodejs.org/en/download/
